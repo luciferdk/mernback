@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Service</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    {{>navbar}}
+
+    <div class="container">
+        <div class="service-item">
+            <h2>Menu</h2>
+            <p>We offer a wide range of delicious dishes available for room service.</p>
+            <p>Contact our service desk to place your order.</p>
+        </div>
+        <div class="service-item">
+            <h2>Service Hours</h2>
+            <p>Our room service is available 24/7 for your convenience.</p>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
